@@ -1,0 +1,52 @@
+body {
+  margin: 0; /* Remove default body margins */
+  font-family: sans-serif; /* Set a default font */
+  background-image: url('fondo2.jpg'); /* Replace 'background.jpg' with your background image path */
+  background-size: cover; /* Cover the entire viewport */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  display: flex; /* Use flexbox for easy layout */
+  flex-direction: row; /* Arrange elements horizontally */
+  align-items: flex-start; /* Align items to the top */
+  height: 100%; /* Make the body take up the full viewport height */
+}
+
+.container {
+  display: flex;
+  width: 150px;
+  padding: 20px;
+  box-sizing: border-box; 
+}
+
+.left-section {
+  flex: 1; 
+  display: flex;
+  flex-direction: flex-end; 
+  align-items: flex-start; 
+}
+
+.left-section img {
+  width: 150px; /* Adjust image width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 20px; /* Add spacing between images */
+}
+
+.center-section {
+  flex: 1; /* Take up available space */
+  text-align: center; /* Center the title */
+}
+
+.center-section h1 {
+  margin: 0; /* Remove default title margins */
+}
+
+.right-section {
+  flex: 1; /* Take up available space */
+  display: flex;
+  justify-content: flex-end; /* Align logo to the right */
+  align-items: flex-start; /* Align logo to the top */
+}
+
+.right-section img {
+  width: 150px; /* Adjust logo width as needed */
+  height: auto; /* Maintain aspect ratio */
+}

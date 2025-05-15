@@ -1,0 +1,128 @@
+body{
+background: url(fondo2.jpg);
+background-size: cover;
+background-repeat:  no-repeat;
+}
+.enca{
+	display: flex;  
+justify-content: left;
+font-family: Monospace;
+color:  #7808bc;
+	margin-right: 255px;
+}
+.x{
+	width:70px;
+	height: 100px;
+	justify-content: flex-end;
+}
+
+.texto{
+	color:  #7808bc;
+	justify-content: center;
+
+}
+
+.container2{
+	margin-top: 50px;
+	display: flex;
+	justify-content: left;
+	text-align: center;
+}
+
+.menu{
+	list-style: none;
+	padding: 0;
+	background-color: darkseagreen;
+	width: 750px;
+	height: 70px;
+	max-width: 1000px;
+	margin-left: 90px;
+	border: 5px solid darkseagreen;
+	border-radius: 20px;
+}
+.bodi{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container3{
+	position: relative;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: lavender;
+	padding: 20px;
+	display: flex;
+}
+
+.menu li{
+	display: inline-block;
+}
+
+.menu li a:hover{
+	background-color: green;
+	border: 5px solid green;
+	border-radius: 20px;
+	margin-right: flex;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+
+
+
+.imgen{
+
+	width: 230px;
+	height: 230px;
+	margin: 0 15px;
+	text-align: flex;
+	justify-content: flex;
+	text-align: left;
+
+}
+
+.color{
+	background-color:#7808bc ;
+	border-radius: 20px;
+	display: flex;
+	height: auto;
+	margin-right: 0 70;
+	justify-content: center;
+	text-align: left;
+	}
+.j{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	text-align: left;
+	color:  #7808bc;
+}
+.h1, .h2{
+	color: #7808bc;
+	font-family: Monaco;
+}
+.barra{
+	width: 100%;
+	height: 10px;
+	background-color: #7808bc;
+	margin: 2px 0s;
+}
+.c{
+	text-align: center;
+	justify-content: center;
+	text-align: left;
+}
+.container {
+  display: flex;
+  width: 55px;
+  padding: 20px;
+  box-sizing: border-box; 
+
+}
