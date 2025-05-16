@@ -1,6 +1,10 @@
 body{
+margin: 0;
 background: url(fondo2.jpg);
-background-size: auto;
+width: 100vw;
+height: 100vh;
+background-position:center center;
+background-size: cover;
 background-repeat:  repeat-x;
 }
 .container{
