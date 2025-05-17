@@ -4,17 +4,10 @@ background: url(fondo2.jpg);
 width: 200vw;
 height: auto;
 display: flex;
-justify-center: center;
 background-position:center center;
 background-size: cover;
 background-repeat:  no-repeat;
 }
-.flor{
-width:300px;
-height:auto;
-	
-}
-
 
 .container{
 
