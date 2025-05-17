@@ -10,6 +10,13 @@ font-family: Monospace;
 color:  #7808bc;
 	margin-right: 255px;
 }
+.j{
+	display: flex;  
+justify-content: left;
+font-family: Monospace;
+color:  #7808bc;
+	margin-right: 255px;
+}
 .x{
 	width:70px;
 	height: 100px;
